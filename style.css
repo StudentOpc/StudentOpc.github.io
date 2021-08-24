@@ -31,19 +31,18 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     position: relative;
 }
-
-.bloc .container {
-    padding-left: 0;
-    padding-right: 0;
+.style-type{
+    list-style: none;
 }
-
+a:link{
+    text-decoration:none;
+}
 .bloc-lg {
     padding: 100px 50px;
 }
@@ -264,6 +263,14 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
+.image-resize-mode{
+    width: 100px;
+}
+
+.img-scale{
+height: 40px;
+}
+
 .voffset {
     margin-top: 30px;
 }
@@ -365,8 +372,8 @@ a:hover {
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
-        top: 50%;
-        right: 20px;
+        top: 47%;
+        right: 98px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -673,16 +680,31 @@ a {
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 p {
-    font-size: 11px;
+    font-size: 1.2em;
+}
+.size-up{
+    font-size: 1.2em;
 }
 
+.size--up{
+    font-size: 1.5em;
+}
+
+blockquote{
+    border:none;
+    text-align: center;
+}
+.disable-weight{
+    font-weight: normal;
+    font-size:1.5rem;
+}
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .h1 {
@@ -701,7 +723,8 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
+    margin-top:1em;
 }
 
 h2 {
@@ -718,7 +741,7 @@ h3 {
 
 .med-width-whitespace {
     max-width: 800px;
-    margin: auto auto auto auto;
+    margin: auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
@@ -741,6 +764,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin-right:auto;
+    margin-left:auto;
 }
 
 .portfolio-row {

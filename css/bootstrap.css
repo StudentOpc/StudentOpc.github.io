@@ -1622,7 +1622,7 @@ h6 {
 }
 
 p {
-    margin: 0 0 10px
+    margin: 0 0 0px
 }
 
 .lead {
@@ -2045,7 +2045,7 @@ pre code {
 .col-sm-12,
 .col-sm-2,
 .col-sm-3,
-.col-sm-4,
+/* .col-sm-4, */
 .col-sm-5,
 .col-sm-6,
 .col-sm-7,
@@ -2295,7 +2295,7 @@ pre code {
     .col-sm-12,
     .col-sm-2,
     .col-sm-3,
-    .col-sm-4,
+    /* .col-sm-4, */
     .col-sm-5,
     .col-sm-6,
     .col-sm-7,
@@ -2327,9 +2327,9 @@ pre code {
     .col-sm-5 {
         width: 41.66666667%
     }
-    .col-sm-4 {
+    /* .col-sm-4 {
         width: 33.33333333%
-    }
+    } */
     .col-sm-3 {
         width: 25%
     }
