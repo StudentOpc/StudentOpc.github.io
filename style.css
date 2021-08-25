@@ -728,15 +728,15 @@ blockquote{
 }
 
 h2 {
-    font-size: 22px;
     line-height: 1.4em;
-}
-
-h3 {
-    font-size: 15px;
+    font-size: 1.2em;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+}
+
+h3 {
+
 }
 
 .med-width-whitespace {
@@ -759,7 +759,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #f5f5f5!important;
 }
 
 .portfolio-thumb {
