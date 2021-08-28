@@ -1437,7 +1437,6 @@ img {
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
-    display: block;
     max-width: 100%;
     height: auto
 }
@@ -2299,8 +2298,7 @@ pre code {
     .col-sm-3,
     /* .col-sm-4, */
     .col-sm-5,
-    .col-sm-6,
-    .col-sm-7,
+    .col-sm-6, 
     .col-sm-8,
     .col-sm-9 {
         float: left
