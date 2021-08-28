@@ -304,6 +304,12 @@ th {
 }
 
 /* Font face obsolète */
+/* @font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url(../fonts/glyphicons-halflings-regular.eot);
+    src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg');
+    font-display: optional;
+} */
 
 .glyphicon {
     position: relative;
@@ -2292,7 +2298,8 @@ pre code {
     .col-sm-3,
     /* .col-sm-4, */
     .col-sm-5,
-    .col-sm-6, 
+    /* .col-sm-6, */ /* Ajustement du text contact page 2*/
+    .col-sm-7,
     .col-sm-8,
     .col-sm-9 {
         float: left
