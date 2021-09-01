@@ -739,10 +739,6 @@ h2 {
     color: #333333!important;
 }
 
-h3 {
-
-}
-
 .med-width-whitespace {
     max-width: 800px;
     margin: auto;
@@ -814,7 +810,7 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #110f0f!important;
-    width: 25%;
+    width: 150px;
 }
 
 .btn-atomic-tangerine:hover {
